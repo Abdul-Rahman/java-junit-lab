@@ -13,7 +13,9 @@ public class CalculatorTest {
     public void testSubtract() { assertEquals(3.0, calc.subtract(5, 2)); }
 
     @Test
-    public void testMultiplyIntegers() { assertEquals(12.0, calc.multiply(3, 4)); }
+    public void testMultiplyIntegers() { assertEquals(12.345, calc.multiply(4.115, 3)); }
+
+    
 
     @Test
     public void testMultiplyFloats() {
